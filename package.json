@@ -1,5 +1,5 @@
 {
-  "name": "@kocidigital/sf-cliservice",
+  "name": "@kocdigital/sf-cliservice",
   "version": "1.0.1",
   "description": "Koç Digital micro-front-end local service for vue-cli projects",
   "main": "lib/Service.js",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/kocdigital/sf-cli-service.git"
+    "url": "https://github.com/kocdigital/sf-cliservice.git"
   },
   "keywords": [
     "vue",
@@ -19,7 +19,7 @@
   "author": "Özgür Çimen",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/kocdigital/sf-cli-service/issues"
+    "url": "https://github.com/kocdigital/sf-cliservice/issues"
   },
   "dependencies": {
     "@intervolga/optimize-cssnano-plugin": "^1.0.5",
@@ -120,7 +120,8 @@
     "vuex": "^3.4.0"
   },
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "registry":"https://registry.npmjs.org/"
   },
   "engines": {
     "node": ">=8"

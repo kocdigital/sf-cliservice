@@ -6,3 +6,4 @@ test
 coverage
 *.log
 package-lock.json
+.npmrc
